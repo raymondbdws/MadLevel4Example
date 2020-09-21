@@ -1,0 +1,4 @@
+A singleton pattern is used in the class that defines the database. What is the purpose of this pattern?
+Why should you load the data in a background thread?
+What are the three major components of ROOM and what are their responsibilities?
+How can you extract the current database so that you can see the table, columns, and data?
