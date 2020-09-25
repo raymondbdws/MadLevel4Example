@@ -1,4 +1,4 @@
-package com.rayray.madlevel3example
+package com.rayray.madlevel4example
 
 import android.content.Context
 import androidx.room.Database
@@ -22,7 +22,7 @@ abstract class ReminderRoomDatabase: RoomDatabase() {
                     reminderRoomDatabaseInstance = Room.databaseBuilder(
                         context.applicationContext, ReminderRoomDatabase::class.java,
                         DATABASE_NAME
-                    ).allowMainThreadQueries().build()
+                    ).build()
                 }
             }
             return reminderRoomDatabaseInstance

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/remindersFragment"
-        android:name="com.rayray.madlevel3example.RemindersFragment"
+        android:name="com.rayray.madlevel4example.RemindersFragment"
         android:label="fragment_reminders"
         tools:layout="@layout/fragment_reminders" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addReminderFragment"
-        android:name="com.rayray.madlevel3example.AddReminderFragment"
+        android:name="com.rayray.madlevel4example.AddReminderFragment"
         android:label="fragment_reminder_add"
         tools:layout="@layout/fragment_reminder_add" />
 </navigation>
